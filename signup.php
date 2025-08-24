@@ -17,7 +17,7 @@ if (isset($_POST['signup'])) {
 ?>
 <!DOCTYPE html>
 <html>
-<head><title>Signup</title></head>
+<head><title>Signup Page</title></head>
 <body>
 <h2>Sign Up</h2>
 <?php if(isset($error)) echo "<p style='color:red;'>$error</p>"; ?>
