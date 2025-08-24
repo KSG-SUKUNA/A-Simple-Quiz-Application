@@ -23,7 +23,7 @@ if (isset($_POST['login'])) {
 ?>
 <!DOCTYPE html>
 <html>
-<head><title>Login</title></head>
+<head><title>Login Page</title></head>
 <body>
 <h2>Login</h2>
 <?php if(isset($error)) echo "<p style='color:red;'>$error</p>"; ?>
