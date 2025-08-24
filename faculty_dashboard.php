@@ -7,7 +7,7 @@ if (!isset($_SESSION['user']) || $_SESSION['user']['role']!='faculty') {
 <h2>Faculty Dashboard</h2>
 <p>Welcome, <?php echo $_SESSION['user']['username']; ?>!</p>
 <ul>
-  <li><a href="create_quiz.php">Create Quiz</a></li>
-  <li><a href="view_results.php">View Results</a></li>
+  <li><a href="create_quiz.php">Create Quiz for Students</a></li>
+  <li><a href="view_results.php">View Results of Students</a></li>
   <li><a href="logout.php">Logout</a></li>
 </ul>
