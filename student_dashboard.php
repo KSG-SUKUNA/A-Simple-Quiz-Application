@@ -5,7 +5,7 @@ if (!isset($_SESSION['user']) || $_SESSION['user']['role']!='student') {
 }
 $quizzes = $conn->query("SELECT * FROM quizzes");
 ?>
-<h2>Student Dashboard</h2>
+<h2>Student to Student Dashboard</h2>
 <p>Welcome, <?php echo $_SESSION['user']['username']; ?>!</p>
 <ul>
 <?php while($q=$quizzes->fetch_assoc()): ?>
